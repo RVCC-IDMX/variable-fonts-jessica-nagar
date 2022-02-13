@@ -11,6 +11,7 @@
 
   &__title {
     color: var.$primary-very-dark;
+    font-variation-settings: 'opsz' 67, 'SOFT' 100, 'wght' 900, 'WONK' 0.33;
     font-weight: type.$display-weight;
     font-size: type.$display-title-size;
     letter-spacing: type.$display-spacing;
@@ -24,12 +25,14 @@
   &__desc {
     max-width: 55ch;
     margin-bottom: 1rem;
+    font-variation-settings: 'opsz' 67, 'SOFT' 100, 'wght' 690, 'WONK' 0.33;
     font-size: type.$body-font-size;
     font-weight: type.$body-font-weight;
     padding: 0rem 5vw;
 
     &--first {
       font-style: italic;
+      font-variation-settings: 'opsz' 67, 'SOFT' 100, 'wght' 500, 'WONK' 0.33;
       font-weight: type.$body-italic-weight;
       letter-spacing: 0.15em;
     }
